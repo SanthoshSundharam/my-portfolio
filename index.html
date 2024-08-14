@@ -9,15 +9,19 @@
 </head>
 <body>
     <!--Header Design-->
+
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
         </nav>
+        <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
+            <i class="fa fa-bars"></i>
+        </a>
     </header>
 
     <!--Home Section Design-->
@@ -26,18 +30,18 @@
     <div class="home-content">
         <h3>Hi,Myself </h3>
         <h1>Santhosh</h1>
-        <h3>And I'm A Software Developer </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea excepturi nihil ipsa atque esse totam dolores, enim temporibus itaque doloribus quo quidem cupiditate. Veritatis itaque assumenda voluptatum ex obcaecati cumque.</p>
+        <h3>And I'm A Software Developer</h3>
+        <p>Aspiring software developer with a recently completed Computer Science and Engineering undergraduate degree. Dedicated to continuous learning and professional growth in the field of software development.</p>
         <div class="social-media">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/Santhosh442" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/_.day_dreamerr.___/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/_.day_dreamerr.___/" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="https://www.linkedin.com/in/santhosh-sundharam-513571242/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         </div>
-        <a href="#" class="btn">Download CV</a>
+        <a href="https://drive.google.com/file/d/1YwYA3hsGqVW3bOi0gjkYpF6PV_54vZGj/view?usp=drive_link" target="_blank" class="btn">Download CV</a>
     </div>
     <div class="home-tag">
-        <img src="img/profile1.png" alt="">
+        <img src="img/Photograph.jpg" alt="">
     </div>
 </section>
 
@@ -45,14 +49,14 @@
 
     <section class="about" id="about">
         <div class="about-img">
-            <img src="img/profile2.jpg" alt="">
+            <img src="img/IMG20240217155755.jpg" alt="">
         </div>
         <div class="about-content">
             <h2 class="heading">About<span>Me</span></h2>
             <h3>Software Developer</h3>
-            <p>Aspiring software developer with a recently completed Computer Science and Engineering undergraduate degree.
-                 Seeking to leverage strong programming skills in Java, SQL, and front-end web technologies to contribute to dynamic development teams and innovative projects. 
-                 Dedicated to continuous learning and professional growth in the field of software development.</p>
+            <p>I have recently completed my undergraduate with a solid foundation in software development.
+                Proficient in Java, SQL and front-end web technologies including HTML, CSS, and JavaScript. Known for strong problem-solving abilities, effective teamwork, and excellent communication skills.
+                Passionate about leveraging technical expertise to drive project success and committed to staying updated with the latest industry trends and advancements.</p>
             <a href="#" class="btn">Read More</a>
         </div>
     </section>
@@ -72,15 +76,15 @@
             <div class="services-box">
                 <i class="fa-solid fa-database"></i>
                 <h3>Back-End Development</h3>
-                <p>Backend development using SQL involves designing and managing databases, writing server-side code to handle client requests, and creating APIs for data interaction. </p>
+                <p>Backend development using SQL and Java involves designing and managing databases, writing server-side code to handle client requests, and creating APIs for data interaction. </p>
                 <a href="#" class="btn">Read More</a>
             </div>
 
             <div class="services-box">
-                <i class="fa-brands fa-android"></i>
-                <h3>App Development</h3>
+                <i class="fa-brands fa-java"></i>
+                <h3>Java Developer</h3>
                 <p>
-                    App development in Java involves creating applications using Java's robust, object-oriented programming features, often for Android and enterprise applications.</p>
+                    Java development involves creating applications using Java's robust, object-oriented programming features, often for Android and enterprise applications.</p>
                 <a href="#" class="btn">Read More</a>
             </div>
         </div>
@@ -92,28 +96,28 @@
      <h2 class="heading">Latest <span>Projects</span></h2>
         <div class="portfolio-container">
             <div class="portfolio-box">
-                <img src="img/profile1.png" alt="">
+                <img src="img/burger.jpg" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nulla.</p>
+                    <h4>UI Design</h4>
+                    <p>An User Interface design for a Burger shop by using Front-end technologies HTML and CSS.</p>
                     <i class="fa-solid fa-up-right-from-square"></i>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="img/profile2.jpg" alt="">
+                <img src="img/img-2.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nulla.</p>
+                    <h4>E-Commerce Website</h4>
+                    <p>A restaurant based e-commerce website development using front-end technologies like HTML,CSS and Javascript.</p>
                     <i class="fa-solid fa-up-right-from-square"></i>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="img/971.jpg" alt="">
+                <img src="img/about-img.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nulla.</p>
+                    <h4>UI Design</h4>
+                    <p>It is coffee shop user interface design developed using HTML,CSS ans Bootstrap framework.</p>
                     <i class="fa-solid fa-up-right-from-square"></i>
                 </div>
             </div>
@@ -139,6 +143,31 @@
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
+    <script>
+        function toggleNavbar() {
+            const navbar = document.getElementById("navbar");
+            navbar.classList.toggle("active");
+        }
 
-</body>
+
+        //Logic for removing and adding active class in navbar
+        let selectAllanchor = document.querySelectorAll('.navbar a')
+        let index = 0
+        for(let each_index = 0; each_index < selectAllanchor.length;each_index++){
+            selectAllanchor[each_index].addEventListener('click', (event)=>{
+                     event.target.classList.add('active')
+                     deselectAll(each_index)
+            })
+            
+        }
+        
+        function deselectAll(index){
+            for(let each_index = 0; each_index < selectAllanchor.length;each_index++){
+                if(each_index != index){
+                    selectAllanchor[each_index].classList.remove('active')
+                }
+            }
+        }
+    </script>
+    </body>
 </html>
